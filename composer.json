@@ -2,7 +2,7 @@
     "name": "andreag/yii2-codicefiscale-validator",
     "description": "module-starter Module for Sharkom Intranet",
     "type": "yii2-extension",
-    "license": "commercial",
+    "license": "MIT",
     "authors": [
         {
             "name": "Andrea Gava",
