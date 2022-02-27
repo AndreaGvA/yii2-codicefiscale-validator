@@ -66,12 +66,13 @@ class CodiceFiscaleValidator extends Validator {
         Yii::warning("CF: ".$cf);
         Yii::warning("Inserted CF: ".$model->$attribute);
 
+
         if(strtoupper($cf)===strtoupper($model->$attribute)) {
             $isvalid=true;
         } else {
             $isvalid=false;
         }
- $isvalid=true;
+
         if(!$isvalid) {
             $model->addError($attribute, $this->message);
         }

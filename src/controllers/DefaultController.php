@@ -16,6 +16,7 @@ class DefaultController extends Controller
         $sessoControl = $sesso;
         $sessoValue = $sessoControl == "M" ? "M" : "F";
 
+
         $comuneValue = $comune;
 
         $provinciaValue = $provincia;
@@ -33,6 +34,7 @@ class DefaultController extends Controller
         Yii::warning("CF: ".$cf);
         Yii::warning("Inserted CF: ".$codicefiscale);
 
+
         if(strtoupper($cf)===strtoupper($codicefiscale)) {
             $isvalid=true;
 
@@ -40,6 +42,7 @@ class DefaultController extends Controller
             $isvalid=false;
         }
         //$isvalid=true;
+
 
         if(!$isvalid) {
             return "Il codice fiscale non è valido";
