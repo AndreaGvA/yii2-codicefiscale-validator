@@ -1,0 +1,27 @@
+{
+    "name": "andreag/yii2-codicefiscale-validator",
+    "description": "module-starter Module for Sharkom Intranet",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrea Gava",
+            "email": "a.gava@sharkom.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "andreag\\codicefiscale\\": "src"
+        }
+    },
+    "extra": {
+        "asset-vcs-driver-options": {
+            "github-no-api": true
+        },
+        "asset-pattern-skip-version": "(-build|-patch)"
+    }
+}
